@@ -70,7 +70,7 @@ The program outputs:
 | Function | Role |
 |----------|------|
 | `readGraphFromFile` | Parses the adjacency matrix from the provided file. |
-| `simulateDVR` | Performs iterative **Bellman‑Ford** updates until distance tables converge; prints final routing tables for each node. |
+| `simulateDVR` | Performs iterative **Bellman‑Ford** updates until distance tables converge; prints final routing tables for each node. 3 loops to choose distance, neighbours and the source. Continues till no updates left |
 | `simulateLSR` | Executes **Dijkstra's algorithm** from every node, producing shortest‑path trees and printing routing tables. |
 | `printDVRTable` / `printLSRTable` | Nicely formats the distance/next‑hop information. |
 | `main` | Validates CLI arguments, loads the graph, triggers both simulations in sequence. |
